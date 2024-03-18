@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/schlunzis.gpg] https://schlunzis.github.io/ppa/ubuntu ./
