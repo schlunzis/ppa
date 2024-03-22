@@ -38,6 +38,7 @@ jobs:
           GPG_SIGNING_KEY: ${{ secrets.GPG_SIGNING_KEY }}
       - name: create content
         run: |
+          dpkg --version
           cd ubuntu
           dpkg-scanpackages --multiversion . > Packages
           gzip -k -f Packages
