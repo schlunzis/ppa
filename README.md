@@ -2,6 +2,12 @@
 
 This repository is used to host a PPA for all our projects.
 
+Currently, the following packages are in the PPA:
+
+- `kurtama-client` The well known board game Kurtama ([GitHub](https://github.com/schlunzis/Kurtama))
+- `request-sink` A small cli application for logging requests to see what they look
+  like. ([GitHub](https://github.com/Til7701/request-sink))
+
 ## Adding the PPA to your system
 
 ```bash
